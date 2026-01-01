@@ -11,7 +11,7 @@ workflows:
           cd GlazeKnowledgeBase.swiftpm
           xcodebuild build \
             -scheme GlazeKnowledgeBase \
-            -destination 'platform=iOS Simulator,name=iPhone 15,OS=latest' \
+            -destination 'platform=iOS Simulator,name=iPhone 17,OS=latest' \
             -allowProvisioningUpdates
     artifacts:
       - build/ios/ipa/*.ipa
