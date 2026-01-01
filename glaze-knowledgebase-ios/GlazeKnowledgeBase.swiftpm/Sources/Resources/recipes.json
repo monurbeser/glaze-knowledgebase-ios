@@ -1,0 +1,174 @@
+[
+  {
+    "id": 1,
+    "name": "CH Sapphire Blue",
+    "cone": "Cone 6",
+    "atmosphere": "Oxidation",
+    "ingredients": [
+      {"name": "Frit 3134", "amount": 39.2},
+      {"name": "Custer Feldspar", "amount": 23.5},
+      {"name": "EPK (Kaolin)", "amount": 23.5},
+      {"name": "Silica (Quartz)", "amount": 13.8}
+    ],
+    "additives": [
+      {"name": "Rutile", "amount": 4.0},
+      {"name": "Cobalt Carbonate", "amount": 2.0}
+    ],
+    "instructions": "",
+    "image_name": "glaze_sapphire_blue"
+  },
+  {
+    "id": 2,
+    "name": "Temmoku Gold (Teadust)",
+    "cone": "Cone 6",
+    "atmosphere": "Oxidation",
+    "ingredients": [
+      {"name": "Cornwall Stone", "amount": 67.4},
+      {"name": "Whiting", "amount": 9.0},
+      {"name": "Silica", "amount": 6.2},
+      {"name": "Dolomite", "amount": 7.9},
+      {"name": "Gerstley Borate (Sub Frit 169)", "amount": 3.4},
+      {"name": "Lithium Carbonate", "amount": 6.2}
+    ],
+    "additives": [
+      {"name": "Red Iron Oxide (RIO)", "amount": 11.2}
+    ],
+    "instructions": "Alisa Liskin Clausen reçetesidir.",
+    "image_name": "glaze_temmoku_gold"
+  },
+  {
+    "id": 3,
+    "name": "Red-Black (Reduction Red)",
+    "cone": "Cone 6-10",
+    "atmosphere": "Reduction",
+    "ingredients": [
+      {"name": "Gerstley Borate", "amount": 14.56},
+      {"name": "Whiting", "amount": 11.07},
+      {"name": "Custer Feldspar", "amount": 23.43},
+      {"name": "Kona F-4 Feldspar", "amount": 23.43},
+      {"name": "EPK Kaolin", "amount": 2.88},
+      {"name": "Silica", "amount": 24.63}
+    ],
+    "additives": [
+      {"name": "Copper Carbonate", "amount": 0.60},
+      {"name": "Red Iron Oxide", "amount": 1.00},
+      {"name": "Tin Oxide", "amount": 1.00}
+    ],
+    "instructions": "Süt kıvamında karıştırılmalıdır. Kalın uygulandığında akıcı olabilir. Kırmızı renk için indirgemeli pişirim (reduction) şarttır.",
+    "image_name": "glaze_red_black"
+  },
+  {
+    "id": 4,
+    "name": "Darby Satin Black Matte",
+    "cone": "Cone 06-04",
+    "atmosphere": "Oxidation",
+    "ingredients": [
+      {"name": "Gerstley Borate", "amount": 30.0},
+      {"name": "Spodumene", "amount": 50.0},
+      {"name": "Silica", "amount": 20.0}
+    ],
+    "additives": [
+      {"name": "Mason Stain #6600 Black", "amount": 10.0}
+    ],
+    "instructions": "Pete Pinnell reçetesidir. Red Rock Red çamur gövdesi ile çok iyi sonuç verir.",
+    "image_name": "glaze_satin_black"
+  },
+  {
+    "id": 5,
+    "name": "Barium Blue Matte Crater",
+    "cone": "Cone 6-8",
+    "atmosphere": "Oxidation",
+    "ingredients": [
+      {"name": "Nepheline Syenite", "amount": 60.0},
+      {"name": "Barium Carbonate", "amount": 20.0},
+      {"name": "Titanium Dioxide", "amount": 10.0},
+      {"name": "Silica", "amount": 10.0},
+      {"name": "Ball Clay", "amount": 8.0},
+      {"name": "Silicon Carbide", "amount": 3.0},
+      {"name": "Copper Carbonate", "amount": 3.0},
+      {"name": "Lithium Carbonate", "amount": 2.0},
+      {"name": "Bentonite", "amount": 2.0}
+    ],
+    "additives": [
+      {"name": "Cobalt Oxide", "amount": 0.5}
+    ],
+    "instructions": "Kraterli ve mat bir doku oluşturur. Jan's reçetesidir.",
+    "image_name": "glaze_barium_blue_crater"
+  },
+  {
+  "id": 6,
+  "name": "Old Forge Glacier",
+  "cone": "6",
+  "atmosphere": "Oxidation",
+  "ingredients": [
+    { "name": "Silica", "amount": 31.0 },
+    { "name": "Nepheline Syenite", "amount": 29.0 },
+    { "name": "Gerstley Borate", "amount": 19.0 },
+    { "name": "Whiting", "amount": 15.0 },
+    { "name": "EP Kaolin", "amount": 6.0 }
+  ],
+  "additives": [
+    { "name": "Bentonite", "amount": 2.0 },
+    { "name": "Titanium Dioxide", "amount": 1.0 }
+  ],
+  "instructions": "Açık mavi, buzsu bir görünüm veren parlak sır.",
+  "image_name": "glaze_old_forge_glacier"
+},
+  {
+    "id": 7,
+    "name": "Sue's Black Velvet",
+    "cone": "6",
+    "atmosphere": "Oxidation",
+    "ingredients": [
+      { "name": "Custer Feldspar", "amount": 30.0 },
+      { "name": "Frit 3124", "amount": 28.0 },
+      { "name": "EP Kaolin", "amount": 14.0 },
+      { "name": "Whiting", "amount": 10.0 },
+      { "name": "Nepheline Syenite", "amount": 8.0 },
+      { "name": "Calcined Kaolin", "amount": 6.0 },
+      { "name": "Zinc Oxide", "amount": 4.0 }
+    ],
+    "additives": [
+      { "name": "Red Iron Oxide (RIO)", "amount": 9.0 },
+      { "name": "Cobalt Oxide", "amount": 2.0 }
+    ],
+    "instructions": "Zengin, kadifemsi bir siyah yüzey sağlar. Reçete kaynağı: glazy.org/recipes/10995",
+    "image_name": "glaze_black_velvet"
+  },
+  {
+    "id": 8,
+    "name": "M3-3 Fiske Black Crystal",
+    "cone": "10",
+    "atmosphere": "Oxidation/Reduction",
+    "ingredients": [
+      { "name": "Nepheline Syenite", "amount": 70.0 },
+      { "name": "Alberta Slip", "amount": 10.0 },
+      { "name": "Spodumene", "amount": 10.0 },
+      { "name": "Whiting", "amount": 10.0 }
+    ],
+    "additives": [
+      { "name": "Mn Dioxide", "amount": 20.0 }
+    ],
+    "instructions": "Kristal yapılı özel bir sırdır.",
+    "image_name": "glaze_fiske_black"
+  },
+  {
+    "id": 9,
+    "name": "Speckled Yellow Matte",
+    "cone": "Belirtilmemiş",
+    "atmosphere": "Oxidation",
+    "ingredients": [
+      { "name": "Gerstley Borate", "amount": 2.0 },
+      { "name": "Barium Carbonate", "amount": 15.0 },
+      { "name": "EPK", "amount": 23.0 },
+      { "name": "Spodumene", "amount": 27.0 },
+      { "name": "Wollastonite", "amount": 33.0 }
+    ],
+    "additives": [
+      { "name": "Iron Oxide", "amount": 2.0 },
+      { "name": "Tin Oxide", "amount": 4.0 }
+    ],
+    "instructions": "Benekli sarı mat bir yüzey sağlar.",
+    "image_name": "glaze_speckled_yellow"
+  }
+]
