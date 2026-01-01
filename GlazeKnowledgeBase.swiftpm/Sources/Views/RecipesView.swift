@@ -56,21 +56,8 @@ struct RecipeDetailView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 16) {
-                // Recipe Image placeholder
-                ZStack {
-                    RoundedRectangle(cornerRadius: 16)
-                        .fill(Color.ceramicPrimaryContainer.opacity(0.3))
-                        .frame(height: 200)
-                    
-                    VStack {
-                        Image(systemName: "photo")
-                            .font(.system(size: 48))
-                            .foregroundColor(.ceramicPrimary.opacity(0.5))
-                        Text(recipe.image_name)
-                            .font(.caption)
-                            .foregroundColor(.secondary)
-                    }
-                }
+                // Recipe Image
+                RecipeImageView(imageName: recipe.image_name)
                 
                 // Recipe Name
                 Text(recipe.name)
@@ -131,6 +118,64 @@ struct IngredientRow: View {
                 .foregroundColor(isAdditive ? .safetyToxic : .primary)
         }
         .padding(.vertical, 2)
+    }
+}
+
+struct RecipeImageView: View {
+    let imageName: String
+    
+    var body: some View {
+        Group {
+            if let image = loadImage() {
+                Image(uiImage: image)
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+                    .frame(height: 200)
+                    .clipped()
+                    .cornerRadius(16)
+            } else {
+                // Fallback placeholder
+                ZStack {
+                    RoundedRectangle(cornerRadius: 16)
+                        .fill(Color.ceramicPrimaryContainer.opacity(0.3))
+                        .frame(height: 200)
+                    
+                    VStack {
+                        Image(systemName: "photo")
+                            .font(.system(size: 48))
+                            .foregroundColor(.ceramicPrimary.opacity(0.5))
+                        Text(imageName)
+                            .font(.caption)
+                            .foregroundColor(.secondary)
+                    }
+                }
+            }
+        }
+    }
+    
+    private func loadImage() -> UIImage? {
+        // Try loading from bundle Resources/Images folder
+        if let url = Bundle.main.url(forResource: imageName, withExtension: "jpg", subdirectory: "Resources/Images") {
+            if let data = try? Data(contentsOf: url) {
+                return UIImage(data: data)
+            }
+        }
+        
+        // Try without subdirectory
+        if let url = Bundle.main.url(forResource: imageName, withExtension: "jpg") {
+            if let data = try? Data(contentsOf: url) {
+                return UIImage(data: data)
+            }
+        }
+        
+        // Try from Images subdirectory
+        if let url = Bundle.main.url(forResource: imageName, withExtension: "jpg", subdirectory: "Images") {
+            if let data = try? Data(contentsOf: url) {
+                return UIImage(data: data)
+            }
+        }
+        
+        return nil
     }
 }
 
